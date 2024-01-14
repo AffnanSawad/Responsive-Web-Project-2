@@ -1,0 +1,128 @@
+header{
+    background-color: rgb(232, 231, 229);
+    padding: 50px 250px ;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    text-decoration: none;
+  position: relative;
+  left: 180px;
+ padding-right: 40px;
+
+  
+ 
+}
+.h{
+    margin-left: -180px;
+    font-size: 2rem;
+}
+.bancon{
+
+   position: relative;
+   margin-top: 150px;
+    margin-left: 90px;
+   height: 250px;
+   width: 300px;
+  
+  padding: 10px 10px; 
+ 
+}
+.primarybtn{
+
+    background-color:rgb(240, 69, 97);
+  height: 28px;
+  border: none;
+  border-radius: 10px;
+}
+
+.img1{
+    display: flex;
+    position: relative;
+    left: 800px;
+    top: -250px;
+    height: 100%;
+   margin-left: 100px;
+   
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   gap: 50px;
+   height: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.h2{
+    color: red;
+    text-align: center;
+
+    margin: 40px 40px;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+   
+  
+}
+.main1 ,  .main2 , .main3, .main4 , .main5 , .main6 {
+
+
+  height: 350px;
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px 20px;
+  padding: 20px 20px;
+text-shadow: blanchedalmond;
+box-shadow: 10px 10px 10px 20px gray ;
+
+
+}
+.f{
+    margin-top: 120px;
+    margin-left: 200px;
+   
+}
+.f1{
+    display: flex;
+}
+.hh{
+    
+    margin: 30px;
+    color: red;
+    
+    height: -100px;
+
+}
+
+.imm{
+    height: 350px;
+    width: 700px;
+    margin-top: -90px;
+    margin-bottom: 20px;
+}
+.footer3{
+    background-color: rgb(12, 12, 55);
+    color: white;
+    height: 150px;
+   text-align: center;
+  padding-top: 30px;
+}
+
